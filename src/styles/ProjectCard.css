@@ -1,0 +1,13 @@
+.project-card {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin-left: 8%;
+}
+
+.project-card h3 {
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    width: 60px;
+}

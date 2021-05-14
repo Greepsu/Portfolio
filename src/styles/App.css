@@ -1,0 +1,46 @@
+body {
+    --blue: #12141C;
+    --grey: #a5a5a5;
+    font-family: "Nunito", sans-serif;
+    background: var(--blue);
+    color: white;
+    padding: 1% 10%;
+}
+
+h1 {
+    font-family: 'Antic Didone', serif;
+    font-weight: 300;
+    font-size: 86px;
+}
+
+h2 {
+    font-family: 'Antic Didone', serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Antic Didone', serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.separator {
+    border-bottom: 1px solid var(--grey);
+    width: 100%;
+}
+
+.lift-up {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lift-up a {
+    margin-top: 20px;
+}

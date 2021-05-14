@@ -1,0 +1,41 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 200px 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 400px;
+}
+
+.contact-container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    list-style-type: none;
+
+
+}
+
+.contact-container ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact-container p {
+    width: 200px;
+    font-size: 18px;
+}

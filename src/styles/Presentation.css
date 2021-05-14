@@ -1,0 +1,86 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1400px;
+
+}
+
+/* presentation title */
+
+.presentation-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 125px 0;
+}
+
+.presentation-title p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--grey);
+    align-self: flex-end;
+    width: 200px;
+}
+
+.presentation-title h1 {
+    width: 1000px;
+}
+
+/* Presentation section */
+
+.presentation-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation-section h2 {
+    width: 200px;
+    height: fit-content;
+}
+
+.presentation-section-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+
+.presentation-section-container p {
+    height: fit-content;
+
+}
+
+.presentation-section-list p {
+    width: 500px;
+    font-size: 18px;
+}
+
+.presentation-section-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    list-style-type: none;
+    margin-top: 40px;
+    font-family: 'Antic Didone', serif;
+}
+
+.presentation-section-list ul li {
+    display: flex;
+    font-size: 28px;
+}
+
+.presentation-section-list ul span {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.presentation-aside-text {
+    width: 350px;
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 600;
+
+}
+
+
