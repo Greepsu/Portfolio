@@ -4,13 +4,24 @@ body {
     font-family: "Nunito", sans-serif;
     background: var(--blue);
     color: white;
-    padding: 1% 10%;
+    padding: 1% 0;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-container {
+    width: 80%;
 }
 
 h1 {
     font-family: 'Antic Didone', serif;
     font-weight: 300;
-    font-size: 86px;
+    font-size: 92px;
 }
 
 h2 {
@@ -23,6 +34,10 @@ h3 {
     font-family: 'Antic Didone', serif;
     font-weight: 200;
     font-size: 30px;
+}
+
+p {
+    font-size: 18px;
 }
 
 a {
@@ -43,4 +58,44 @@ a {
 
 .lift-up a {
     margin-top: 20px;
+}
+
+/* @media screen and (max-width: 1315px) {
+    h1 {
+        font-size: 76px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+} */
+
+@media screen and (max-width: 1024px) {
+    .app-container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 7em;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    p{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
 }

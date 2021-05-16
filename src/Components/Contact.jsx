@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
 //import style
 import "../styles/Contact.css"
 
-export default function Contact() {
+function Contact({ props }, ref) {
     return (
-        <div className="contact" >
+        <footer className="contact" ref={ref} >
             <h2>Contact</h2>
             <div className="contact-container">
-                <h2>arnaud.mgn@gmail.com</h2>
+                <h3>arnaud.mgn@gmail.com</h3>
                 <div>
                     <ul>
                         <li><a href="https://github.com/Greepsu">Github</a></li>
@@ -17,6 +17,10 @@ export default function Contact() {
                     <p>Feel free to contact me and work together !</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
+
+const forwardedContact = forwardRef(Contact);
+
+export default forwardedContact
