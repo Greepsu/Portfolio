@@ -15,11 +15,9 @@ export default function Sidebar({ props }) {
     setMenuActive(false)
   }
 
-  console.log(menuActive)
-
   return (
     <div className="sidebar">
-      <div className="menu-icon">
+      <div className={`menu-icon ${menuActive}`}>
         <input
           className="menu-icon__cheeckbox"
           onClick={menuIconClick}

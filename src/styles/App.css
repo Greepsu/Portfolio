@@ -60,20 +60,6 @@ a {
     margin-top: 20px;
 }
 
-/* @media screen and (max-width: 1315px) {
-    h1 {
-        font-size: 76px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    p{
-        font-size: 17px;
-    }
-} */
-
 @media screen and (max-width: 1024px) {
     .app-container {
         width: 95%;
@@ -97,5 +83,22 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    
+    .app-container {
+        width: 96%;
+    }
+    h1 {
+        font-size: 12vw;
+    }
+
+    h2 {
+        font-size: 7vw;
+    }
+
+    h3 {
+        font-size: 5vw;
+    }
+
+    p{
+        font-size: 3vw;
+    }
 }
