@@ -4,7 +4,7 @@
   justify-content: center;
   max-width: 100%;
   min-width: 40%;
-}
+} 
 
 /* presentation title */
 
@@ -91,6 +91,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
+    margin: 20% 0;
   }
 
   .presentation-title h1 {

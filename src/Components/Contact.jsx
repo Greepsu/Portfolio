@@ -23,4 +23,4 @@ function Contact({ props }, ref) {
 
 const forwardedContact = forwardRef(Contact);
 
-export default forwardedContact
+export default forwardedContact 

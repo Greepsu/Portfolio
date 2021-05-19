@@ -14,7 +14,7 @@ function Project({ props }, ref) {
         <div className="project" ref={ref} >
             <h2>Latest projects</h2>
             <div className="project-container">
-                <ProjectCard name="Schwarzenberg Palace" img={SchwarzenbergPalace} />
+                <ProjectCard name="Schwarzenberg Palace" img={SchwarzenbergPalace} links="https://louvre-museum.vercel.app" />
             </div>
         </div>
     )

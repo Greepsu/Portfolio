@@ -3,7 +3,7 @@ import React from 'react'
 //import style
 import "../styles/ProjectCard.css"
 
-export default function ProjectCard({name, img}) {
+export default function ProjectCard({name, img, links}) {
     const bgStyle = {
         backgroundImage: `url(${img})`,
         backgroundPosition: 'center',
@@ -13,8 +13,10 @@ export default function ProjectCard({name, img}) {
         backgroundBlendMode: 'darken'
     }
     return (
-        <div style={bgStyle} className="project-card" >
-            <h3>{name}</h3>
-        </div>
+        <a href={links} target="_blank" rel="noreferrer" >
+            <div style={bgStyle} className="project-card" >
+                <h3>{name}</h3>
+            </div>
+        </a>
     )
 }

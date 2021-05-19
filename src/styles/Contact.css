@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 200px 0;
+    width: 58%;
+    margin: 10% 0;
 }
 
 .contact-container {
@@ -66,10 +66,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .contact {
-        margin: 10% 0;
-
-    }
     .contact-container {
         width: 100%;
     }

@@ -7,7 +7,7 @@ body {
     padding: 1% 0;
 }
 
-.App {
+.App {  
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,6 +16,10 @@ body {
 
 .app-container {
     width: 80%;
+}
+
+.app-container *::selection {
+    background: #7C7C7C;
 }
 
 h1 {
@@ -57,6 +61,10 @@ a {
 }
 
 .lift-up a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -92,6 +100,7 @@ a {
 
     h2 {
         font-size: 7vw;
+        margin-bottom: 5%;
     }
 
     h3 {

@@ -1,0 +1,33 @@
+.cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 3;
+    user-select: none;
+    pointer-events: none;
+}
+
+.follower{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 50%;
+    opacity: 0.7;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+    z-index: 3;
+}
+
+.follower.active {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
