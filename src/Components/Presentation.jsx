@@ -1,18 +1,9 @@
-import React, { useEffect, forwardRef } from 'react'
+import React, { forwardRef } from 'react'
 
 //import styles
 import "../styles/Presentation.css"
 
-//import GSAP  
-import { gsap } from "gsap"
-
 function Presentation({ props }, ref) {
-    useEffect(() => {
-        let tl = gsap.timeline({defaults: {ease: "SlowMo.easeout"}})
-
-        // tl.to(".presentation", {y: '100%', duration:1.5, delay:0.5});
-        tl.fromTo("h1", {opacity: 0, y:'100%'}, {opacity: 1, y:'0%', delay:0.5});
-    }, [])
 
     return (
         <div className="presentation" ref={ref} >

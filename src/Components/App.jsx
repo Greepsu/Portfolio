@@ -1,10 +1,13 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 //import style
 import "../styles/App.css";
 
 //import assets
 import topArrow from "../assets/top-arrow.svg";
+
+//import GSAP
+import { gsap } from "gsap"
 
 //import Components
 import Contact from "./Contact";
@@ -18,6 +21,14 @@ function App() {
   const presentationRef = useRef();
   const projectRef = useRef();
   const contactRef = useRef();
+
+  useEffect(() => {
+    let tl = gsap.timeline({defaults: {ease: "Power0.easeout"}})
+
+    tl.fromTo(".navbar", {opacity: 0}, {opacity: 1, delay: 0.5, duration: 1.2});
+    tl.fromTo(".presentation-title", {opacity: 0, y:'20%'}, {opacity: 1, y:'0%', duration: 1.2});
+    tl.fromTo(".presentation-section", {opacity: 0, y:'20%'}, {opacity: 1, y:'0%', duration: 1.2});
+}, [])
 
   return (
     <div className="App">
