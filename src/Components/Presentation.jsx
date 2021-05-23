@@ -8,14 +8,14 @@ function Presentation({ props }, ref) {
     return (
         <div className="presentation" ref={ref} >
             <div className="presentation-title">
-                <p>My approach is minimalist with clarity and balance in mind</p>
+                <p>I'm focus on crafting clean  & user‑friendly experiences.</p>
                 <h1><span id="create" >Hello! I'm Arnaud, a web developper based in France</span></h1>
             </div>
             <div className="presentation-section">
                 <h2>What I do ?</h2>
                 <div className="presentation-section-container">
                     <div className="presentation-section-list">
-                        <p>In my works I use simple and functionnal visual solutions that really work. I pay special attention to designing the logic of the future interface and work with typography</p>
+                        <p>Below you can see some projects I've been working on lately. In my works I use simple and functionnal visual solutions that really work.</p>
                         <ul>
                             <li><span>01</span>Landing Page</li>
                             <li><span>02</span>Online store</li>

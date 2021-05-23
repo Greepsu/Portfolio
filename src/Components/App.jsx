@@ -15,13 +15,17 @@ import Navbar from "./Navbar";
 import Presentation from "./Presentation";
 import Project from "./Project";
 import Cursor from "./Cursor";
+import Techno from "./Techno";
 
 function App() {
+
   //Define ref
   const presentationRef = useRef();
   const projectRef = useRef();
   const contactRef = useRef();
+  const technoRef = useRef()
 
+  //Opening Animation
   useEffect(() => {
     let tl = gsap.timeline({defaults: {ease: "Power0.easeout"}})
 
@@ -37,6 +41,7 @@ function App() {
         <Navbar props={{ presentationRef, projectRef, contactRef }} />
         <Presentation ref={presentationRef} />
         <Project ref={projectRef} />
+        <Techno ref={technoRef} />
         <Contact ref={contactRef} />
         <div className="separator"></div>
         <div className="lift-up">

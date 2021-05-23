@@ -1,0 +1,45 @@
+.techno {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+}
+
+.techno-list {
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+}
+
+.techno-list-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 350px;
+
+}
+
+.techno-list p {
+    width: 80%;
+
+}
+
+.techno-list ul {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    list-style-type: none;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.techno-list ul li {
+    display: flex;
+    font-family: 'Antic Didone', serif;
+    font-size: 28px;
+}
+
+.techno-list ul span {
+    font-size: 14px;
+    margin-right: 5px;
+
+}
