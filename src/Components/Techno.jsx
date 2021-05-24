@@ -11,7 +11,7 @@ function Techno() {
         <p>Below you can see all the technology that I use in my works.</p>
         <div className="techno-list-container">
             <ul>
-                <li><span>01</span>Html / Css</li>
+                <li><span>01</span>Html/Css</li>
                 <li><span>02</span>Scss</li>
                 <li><span>03</span>Javascript</li>
                 <li><span>04</span>Express</li>

@@ -66,6 +66,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contact {
+        margin: 10% 0;
+    }
     .contact-container {
         width: 100%;
     }

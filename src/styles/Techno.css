@@ -75,13 +75,21 @@
 
 @media screen and (max-width: 768px) {
     .techno {
-        margin-bottom: 10%;
+        margin-bottom: 0;
     }
+
+    .techno-list-container {
+        height: fit-content;
+        margin-top: 7%;
+    }
+
     .techno-list p {
         font-size: 4vw;
     }
 
-
+    .techno-list-container ul {
+        margin: 0;
+    }
     
     .techno-list-container ul li {
         font-size: 6vw;
