@@ -138,14 +138,14 @@
 
 @media screen and (max-width: 768px) {
   .presentation-section-list ul li {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   .presentation-section-list ul li span {
-    font-size: 2vw;
+    font-size: 3vw;
     }
 
     .presentation-section-list ul {
-      height: 400px;
+      height: 350px;
   }
 }
