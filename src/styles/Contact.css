@@ -1,78 +1,78 @@
 .contact {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 58%;
-    margin: 10% 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 58%;
+  margin: 10% 0;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-    width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 400px;
 }
 
 .contact-container div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.contact-container ul  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 70px;
-    list-style-type: none;
+.contact-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  list-style-type: none;
 }
 
 .contact-container ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .contact-container p {
-    width: 200px;
+  width: 200px;
 }
 
 @media screen and (max-width: 1024px) {
-    .contact {
-        flex-direction: column;
-    }
+  .contact {
+    flex-direction: column;
+  }
 
-    .contact h2 {
-        margin-bottom: 8%;
-    }
+  .contact h2 {
+    margin-bottom: 8%;
+  }
 
-    .contact-container {
-        height: 30vh;
-    }
+  .contact-container {
+    height: 30vh;
+  }
 
-    .contact-container div {
-        flex-direction: column;
-        height: 20vh;
-    }
+  .contact-container div {
+    flex-direction: column;
+    height: 20vh;
+  }
 
-    .contact-container ul li a {
-        font-size: 45px;
-    }
+  .contact-container ul li a {
+    font-size: 45px;
+  }
 
-    .contact-container p {
-        width: 100%;
-    }
+  .contact-container p {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .contact {
-        margin: 10% 0;
-    }
-    .contact-container {
-        width: 100%;
-    }
-    .contact-container ul li a {
-        font-size: 4vw;
-    }
+  .contact {
+    margin: 10% 0;
+  }
+  .contact-container {
+    width: 100%;
+  }
+  .contact-container ul li a {
+    font-size: 4vw;
+  }
 }

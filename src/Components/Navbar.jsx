@@ -8,7 +8,6 @@ import { useWindowSize } from "react-use";
 import Sidebar from "./Sidebar";
 
 export default function Navbar({ props }) {
-
   // Use react-use hooks and store the app width
   const { width } = useWindowSize();
 
@@ -16,10 +15,8 @@ export default function Navbar({ props }) {
   const breakpoint = 1090;
 
   //Scroll to the ref section
-  const executeScroll = (ref) => ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-
-
-  console.log(props)
+  const executeScroll = (ref) =>
+    ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
 
   return (
     <nav className="navbar">
@@ -30,17 +27,32 @@ export default function Navbar({ props }) {
         {width > breakpoint ? (
           <ul className="navbar-links">
             <li>
-              <a href="#Home" onClick={() => executeScroll(props.presentationRef)} >Home</a>
+              <a
+                href="#Home"
+                onClick={() => executeScroll(props.presentationRef)}
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#Projects" onClick={() => executeScroll(props.projectRef)} >Projects</a>
+              <a
+                href="#Projects"
+                onClick={() => executeScroll(props.projectRef)}
+              >
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#Contacts" onClick={() => executeScroll(props.contactRef)} >Contacts</a>
+              <a
+                href="#Contacts"
+                onClick={() => executeScroll(props.contactRef)}
+              >
+                Contacts
+              </a>
             </li>
           </ul>
         ) : (
-          <Sidebar props={ props } />
+          <Sidebar props={props} />
         )}
       </div>
     </nav>

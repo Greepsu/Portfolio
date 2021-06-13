@@ -7,13 +7,14 @@ export default function Sidebar({ props }) {
   const [menuActive, setMenuActive] = useState(false);
 
   //Toggle component class (open / close sidebar)
-  const menuIconClick = () => menuActive ? setMenuActive(false) : setMenuActive("active");
+  const menuIconClick = () =>
+    menuActive ? setMenuActive(false) : setMenuActive("active");
 
   //Scroll to the ref section
   const executeScroll = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    setMenuActive(false)
-  }
+    setMenuActive(false);
+  };
 
   return (
     <div className="sidebar">
@@ -30,21 +31,24 @@ export default function Sidebar({ props }) {
       </div>
       <div className={`sidebar-container ${menuActive}`}>
         <ul>
-        <li>
-          <a href="#Home" onClick={() => executeScroll(props.presentationRef)} >
-            <span>01</span> Home
-          </a>
-        </li>
-        <li>
-          <a href="#Projects" onClick={() => executeScroll(props.projectRef)}>
-            <span>02</span> Projects
-          </a>
-        </li>
-        <li>
-          <a href="#Contacts" onClick={() => executeScroll(props.contactRef)}>
-            <span>03</span> Contacts
-          </a>
-        </li>
+          <li>
+            <a
+              href="#Home"
+              onClick={() => executeScroll(props.presentationRef)}
+            >
+              <span>01</span> Home
+            </a>
+          </li>
+          <li>
+            <a href="#Projects" onClick={() => executeScroll(props.projectRef)}>
+              <span>02</span> Projects
+            </a>
+          </li>
+          <li>
+            <a href="#Contacts" onClick={() => executeScroll(props.contactRef)}>
+              <span>03</span> Contacts
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -4,7 +4,7 @@
   justify-content: center;
   max-width: 100%;
   min-width: 40%;
-} 
+}
 
 /* presentation title */
 
@@ -99,9 +99,9 @@
   }
 
   .presentation-title p {
-      margin-top: 8%;
-      width: 70%;
-    }
+    margin-top: 8%;
+    width: 70%;
+  }
 
   .presentation-section-container {
     flex-direction: column;
@@ -119,12 +119,12 @@
   }
 
   .presentation-section h2 {
-      margin-bottom: 7%;
+    margin-bottom: 7%;
   }
 
   .presentation-section-list ul {
-      height: 50vh;
-      margin: 10% 0;
+    height: 50vh;
+    margin: 10% 0;
   }
 
   .presentation-section-list ul li {
@@ -133,7 +133,7 @@
 
   .presentation-section-list ul li span {
     font-size: 30px;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -143,9 +143,9 @@
 
   .presentation-section-list ul li span {
     font-size: 3vw;
-    }
+  }
 
-    .presentation-section-list ul {
-      height: 350px;
+  .presentation-section-list ul {
+    height: 350px;
   }
 }

@@ -7,7 +7,7 @@ import "../styles/App.css";
 import topArrow from "../assets/top-arrow.svg";
 
 //import GSAP
-import { gsap } from "gsap"
+import { gsap } from "gsap";
 
 //import Components
 import Contact from "./Contact";
@@ -18,21 +18,33 @@ import Cursor from "./Cursor";
 import Techno from "./Techno";
 
 function App() {
-
+  
   //Define ref
   const presentationRef = useRef();
   const projectRef = useRef();
   const contactRef = useRef();
-  const technoRef = useRef()
+  const technoRef = useRef();
 
   //Opening Animation
   useEffect(() => {
-    let tl = gsap.timeline({defaults: {ease: "Power0.easeout"}})
+    let tl = gsap.timeline({ defaults: { ease: "Power0.easeout" } });
 
-    tl.fromTo(".navbar", {opacity: 0}, {opacity: 1, delay: 0.5, duration: 1.2});
-    tl.fromTo(".presentation-title", {opacity: 0, y:'20%'}, {opacity: 1, y:'0%', duration: 1.2});
-    tl.fromTo(".presentation-section", {opacity: 0, y:'20%'}, {opacity: 1, y:'0%', duration: 1.2});
-}, [])
+    tl.fromTo(
+      ".navbar",
+      { opacity: 0 },
+      { opacity: 1, delay: 0.5, duration: 1.2 }
+    );
+    tl.fromTo(
+      ".presentation-title",
+      { opacity: 0, y: "20%" },
+      { opacity: 1, y: "0%", duration: 1.2 }
+    );
+    tl.fromTo(
+      ".presentation-section",
+      { opacity: 0, y: "20%" },
+      { opacity: 1, y: "0%", duration: 1.2 }
+    );
+  }, []);
 
   return (
     <div className="App">

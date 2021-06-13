@@ -1,37 +1,35 @@
 .project-card {
-    width: 40%;
-    height: 40vh;
-    position: relative;
-    margin-left: 8%;
-    filter: grayscale(100%);
-    transition: 0.3s ease-in-out;
-    z-index: 0;
+  width: 40%;
+  height: 40vh;
+  position: relative;
+  margin-left: 8%;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+  z-index: 0;
 }
 
 .project-card:hover {
-    background-color: black;
-    filter: grayscale(0);
-
+  background-color: black;
+  filter: grayscale(0);
 }
 
 .project-card h3 {
-    position: absolute;
-    top: 50px;
-    left: -50px;
-    width: 60px;
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  width: 60px;
 }
 
 @media screen and (max-width: 1024px) {
-    .project-card {
-        width: 80%;
-    }
-    
+  .project-card {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .project-card h3 {
-        top: 0;
-        left: 0;
-        width: 60px;
-    }
+  .project-card h3 {
+    top: 0;
+    left: 0;
+    width: 60px;
+  }
 }
