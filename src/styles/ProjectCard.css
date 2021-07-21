@@ -3,6 +3,7 @@
   height: 40vh;
   position: relative;
   margin-left: 8%;
+  margin-bottom: 5%;
   filter: grayscale(100%);
   transition: 0.3s ease-in-out;
   z-index: 0;
