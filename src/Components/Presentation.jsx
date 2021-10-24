@@ -7,7 +7,7 @@ function Presentation({ props }, ref) {
   return (
     <div className="presentation" ref={ref}>
       <div className="presentation-title">
-        <p>I'm focus on crafting clean & user‑friendly experiences.</p>
+        <p>Welcome to my personal Portfolio !</p>
         <h1>
           <span id="create">
             Hello! I'm Arnaud, a web developper based in France
@@ -19,31 +19,28 @@ function Presentation({ props }, ref) {
         <div className="presentation-section-container">
           <div className="presentation-section-list">
             <p>
-              Below you can see some projects I've been working on lately. In my
-              works I use simple and functionnal visual solutions that really
-              work.
+              I'm a passionate Frontend developer. Below you can see some
+              projects I've been working on lately. I’m always looking to
+              collaborate on some cool project !
             </p>
             <ul>
               <li>
                 <span>01</span>Landing Page
               </li>
               <li>
-                <span>02</span>Online store
+                <span>02</span>Integration
               </li>
               <li>
-                <span>03</span>News sites
+                <span>03</span>Group projects
               </li>
               <li>
                 <span>04</span>Website portfolio
               </li>
-              <li>
-                <span>05</span>Corporate website
-              </li>
             </ul>
           </div>
           <p className="presentation-aside-text">
-            I believe that quality design is the result of a deep dive into the
-            client's business problems that can be solved with my solutions.
+            I'm an occasional UI/UX Designer who loves making high-quality
+            websites and applications.
           </p>
         </div>
       </div>
