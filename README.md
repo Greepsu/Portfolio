@@ -1,6 +1,6 @@
 # 🍾 Portfolio
 
-![portfolio header](src/assets/images/invision-header.png)
+![portfolio header](src/assets/portfolio-header.png)
 
 ## Front-end project
 
@@ -12,7 +12,7 @@ Upload with Vercel
 
 ## ⚡️ Overview
 
-![portfolio overview](src/assets/images/invision-overview.png)
+![portfolio overview](src/assets/portfolio-overview.png)
 
 ## 🔥 Experience
 
